@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Login" />
+    <title>Sign-in - Kerala Tourism</title>
+    <link
+      rel="shortcut icon"
+      href="https://www.keralatourism.org/favicon.ico"
+      type="image/x-icon"
+    />
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet" />
+    <!-- Custom styles for this template -->
+    <link href="/css/signin.css" rel="stylesheet" />
+  </head>
+  <body class="text-center bg-dark">
+    <main class="form-signin nav-link active text-light">
+      <form class="needs-validation" action="/index.html">
+        <a href="/index.html">
+          <img
+            class="mb-4 logo"
+            src="/img/logowhite.png"
+            alt="logo"
+            style="height: auto"
+          />
+        </a>
+        <h3 class="text-light">Please sign in</h3>
+        <input
+          type="email"
+          id="inputEmail"
+          class="form-control"
+          placeholder="Email address"
+          required
+          autofocus
+        />
+        <div id="email-feedback" class="valid-feedback">
+          Please choose a valid e-mail ID.
+        </div>
+        <input
+          type="password"
+          id="inputPassword"
+          class="form-control mb-0"
+          placeholder="Password"
+          required
+        />
+        <div id="pass-feedback" class="invalid-feedback">Invalid Password</div>
+        <div class="checkbox mb-3 text-light">
+          <label>
+            <input type="checkbox" value="remember-me" /> Remember me
+          </label>
+        </div>
+        <button class="w-100 btn btn-lg btn-primary" type="submit">
+          Sign in
+        </button>
+        <a class="text-light" href="/signup.html">New? Signup here</a>
+        <!-- <p class="mt-5 mb-3 text-muted">&copy; 2017–2021</p> -->
+      </form>
+    </main>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/login.js"></script>
+  </body>
+</html>
